@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glow AI - Create Anything with Just Text</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <div class="logo-section">
+                <img src="app-icon.png" alt="Glow AI" class="app-icon">
+                <h1 class="logo-text">Glow AI</h1>
+            </div>
+            <a href="#" class="app-store-link" id="appStoreLink">
+                <img src="app-store-badge.png" alt="Download on the App Store" class="app-store-badge">
+            </a>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <h2 class="main-heading">Create Anything with Just Text</h2>
+            
+            <!-- Infinite Scrolling Carousel with Fading Images -->
+            <div class="carousel-container">
+                <div class="carousel-track" id="carouselTrack">
+                    <!-- Cards will be duplicated via JavaScript for infinite scroll -->
+                    <div class="carousel-card" data-before="images/anime_before.png" data-after="images/anime_after.png">
+                        <img class="card-image before" src="images/anime_before.png" alt="Before">
+                        <img class="card-image after" src="images/anime_after.png" alt="After">
+                    </div>
+                    <div class="carousel-card" data-before="images/barbie_before.jpg" data-after="images/barbie_after.jpg">
+                        <img class="card-image before" src="images/barbie_before.jpg" alt="Before">
+                        <img class="card-image after" src="images/barbie_after.jpg" alt="After">
+                    </div>
+                    <div class="carousel-card" data-before="images/caricature_before.png" data-after="images/caricature_after.png">
+                        <img class="card-image before" src="images/caricature_before.png" alt="Before">
+                        <img class="card-image after" src="images/caricature_after.png" alt="After">
+                    </div>
+                    <div class="carousel-card" data-before="images/actionfigure_before.jpg" data-after="images/actionfigure_after.jpg">
+                        <img class="card-image before" src="images/actionfigure_before.jpg" alt="Before">
+                        <img class="card-image after" src="images/actionfigure_after.jpg" alt="After">
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-links">
+                <a href="privacy.html">Privacy Policy</a>
+                <span class="separator">•</span>
+                <a href="terms.html">Terms of Service</a>
+                <span class="separator">•</span>
+                <a href="contact.html">Contact</a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
