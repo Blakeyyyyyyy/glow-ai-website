@@ -128,6 +128,7 @@ main {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center;
     transition: opacity 1.5s ease-in-out;
 }
 
@@ -266,6 +267,31 @@ footer {
 
 .page-content p {
     margin-bottom: 20px;
+}
+
+.page-content h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 28px;
+    margin-bottom: 12px;
+    color: #ffffff;
+}
+
+.page-content h3 {
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    color: rgba(255, 255, 255, 0.95);
+}
+
+.page-content ul {
+    margin-bottom: 16px;
+    padding-left: 24px;
+}
+
+.page-content li {
+    margin-bottom: 8px;
 }
 
 .back-link {
